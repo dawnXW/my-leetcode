@@ -38,4 +38,4 @@ class Solution(object):
             res ^= ord(c)
         return chr(res)
 ```
-与方法一思路类似，但是实际性能不容方法一。<br>
+与方法一思路类似，但是实际性能不如方法一。<br>
