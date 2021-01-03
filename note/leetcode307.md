@@ -16,11 +16,16 @@ class NumArray(object):
     def sumRange(self, i, j):
         return sum(self.nums[i:j+1])
 ```
+
 <br>
 <br>
+
 如果是一个List，预存求和，预处理时间是```O(n)```。修改一个值是```O(n)```，求和是```O(1)```。
+
 <br>
-<br>
+
 如果是一个线段树，预存求和，预处理时间是```O(n)```。修改一个值是```O(logn)```，求和是```O(logn)```。
+
 <br>
+
 用二叉树可能也可以实现。
