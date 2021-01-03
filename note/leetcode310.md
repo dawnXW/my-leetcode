@@ -20,7 +20,7 @@ result = min(max(p0px)(x<>0), max(p1px)(x<>1), max(p2px)(x<>2), ...)
 <br>
 如何找到最长的2个点的距离？<font color=red>拓扑排序</font>
 
-```
+```python
 class Solution(object):
     def findMinHeightTrees(self, n, edges):
         connections = [set() for _ in range(n)]
